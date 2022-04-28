@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='utf-8'>
+        <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+        <title>intro section</title>
+        <meta name='viewport' content='width=device-width, initial-scale=1'>
+        <link rel='stylesheet' type='text/css' media='screen' href='style/style.css'>
+        <!--google font link-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@500&display=swap" rel="stylesheet">
+        
+    </head>
+    <body id="mainpage">
+        <div class="container">
+            <header class="header">
+                <!--navigation menu-->
+                <nav class="navbar">
+                    <div class="navbar-brand">
+                        <img src="images/logo.svg" alt="logo-image">
+                    </div>
+
+                    <!-- Menu Hamburguer -->
+                    <div class="menu-toggler" id="menuToggler"">
+                        <img src="images/icon-menu.svg">
+                    </div>
+                    <div  class="navbar-nav" id="navbarNav">
+                        <ul>
+                            <li>
+                                <div class="close-icon" id="closeNv">
+                                    <img src="images/icon-close-menu.svg" alt="">
+                                </div>
+                                <a id="features" class="arwdown">Features</a>
+                                <div class="menu-dropdown hidden" id="mndrpDown">      
+                                    <a href="" class="mn-dpdown-link-1">Todo List</a>
+                                    <a href="" class="mn-dpdown-link-2">Calendar</a>
+                                    <a href="" class="mn-dpdown-link-3">Reminders</a>
+                                    <a href="" class="mn-dpdown-link-4">Planning</a>
+                                </div>
+                            </li>
+                            <li>
+                                <a id="company" class="arwdown">Company</a>
+                                <div class="menu-dropdown2 hidden" id="mndrpDown2">
+                                    <a href="" class="mn-dpdown-link-5">History</a>
+                                    <a href="" class="mn-dpdown-link-6">Our team</a>
+                                    <a href="" class="mn-dpdown-link-7">Blog</a>   
+                                </div>
+                            </li>
+                            <li><a>Carrers</a></li>
+                            <li><a>About</a></li>
+                        </ul>
+                    </div>
+                    <div class="nav-buttons">
+                        <button class="login"><a>Login</a></button>
+                        <button class="register"><a>Register</a></button>
+                    </div>
+                </nav>
+            </header>
+            <!--main content-->
+            <main>
+                <section class="section-1">
+                    <h1>Make <span>remote work</span></h1>
+                    <div class="paragraf-1">
+                        <p>
+                            Get your team in sync, no matter your location. Streamline processes, 
+                            create team rituals, and watch productivity soar.
+                        </p>
+                    </div>
+                        <button class="learn-more"><a href="">Learn more</a></button>
+
+                        <div class="brand-clients">
+                            <img class="brand-item" src="images/client-databiz.svg" alt="client-databiz">
+                            <img class="brand-item audiopl" src="images/client-audiophile.svg" alt="client-audiophile">
+                            <img class="brand-item" src="images/client-meet.svg" alt="client-meet">
+                            <img class="brand-item" src="images/client-maker.svg" alt="client-maker">
+                        </div>
+                </section>
+                <aside>
+                    <div class="image-hero-desktop">
+                        <img src="images/image-hero-desktop.png" alt="image-hero-desktop">
+                    </div>
+                    <div class="image-hero-mobile"><img src="images/image-hero-mobile.png" alt="image-hero-mobile"></div>
+                </aside>
+            </main>
+        </div>
+        <script src='js/script.js'></script>
+    </body>
+</html>
